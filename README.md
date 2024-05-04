@@ -1,4 +1,4 @@
-<h1 align="center">NvdaChad</h1>
+<h1 align="center">nvimda</h1>
 A nvim config for C++/Python/JS/React development derived from <a href="https://github.com/NvChad/NvChad/tree/v2.0">NvChad</a>
 
 ## LIST
@@ -35,7 +35,7 @@ then set the terminal font to JetBrainsMono
 - Clone this repo
 ```bash
 cd ~
-git clone --recursive https://github.com/KMint1819/NvdaChad.git ~/.config/nvim --depth=1
+git clone --recursive https://github.com/KMint1819/nvimda.git ~/.config/nvim --depth=1
 ```
 
 - (optional) Alias `vim` to `nvim`
