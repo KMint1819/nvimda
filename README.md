@@ -2,7 +2,7 @@
 A nvim config for C++/Python/JS/React development derived from <a href="https://github.com/NvChad/NvChad/tree/v2.0">NvChad</a>
 
 ## LIST
-- [ ] copy buffer
+- [ ] copy buffer (try this https://stackoverflow.com/a/41703217/9545385)
 
 ## How to install
 - font
