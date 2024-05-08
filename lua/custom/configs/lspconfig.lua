@@ -11,6 +11,10 @@ local lsp = require("lspconfig")
 lsp.clangd.setup({
   on_attach = on_attach,
   capabilities = capabilities,
+  cmd = {
+    "clangd",
+    "--offset-encoding=utf-16",
+  },
 })
 lsp.pyright.setup({
   on_attach = on_attach,
