@@ -5,8 +5,7 @@ A nvim config for C++/Python/JS/React development derived from <a href="https://
 - [ ] copy buffer (try this https://stackoverflow.com/a/41703217/9545385)
 - [ ] clangd auto support (compile_commands.json): See https://github.com/rizsotto/Bear/blob/master/INSTALL.md
 - [ ] Long error messages
-- [ ] Multi-line edits
-- [ ] 
+- [x] Multi-line edits
 
 ## How to install
 - font

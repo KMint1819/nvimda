@@ -42,6 +42,12 @@ local plugins = {
       require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig"
     end,
+  },
+  {
+    "mg979/vim-visual-multi",
+    lazy = false,
+    branch = "v0.5.8",
+    event = "User AstroFile",
   }
 }
 return plugins
