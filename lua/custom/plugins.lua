@@ -41,6 +41,12 @@ local plugins = {
     config = function()
       require "plugins.configs.lspconfig"
       require "custom.configs.lspconfig"
+
+      local bufopts = { noremap = true, silent = true }
+      vim.keymap.set("n", "<space>e", vim.diagnostic.open_float, bufopts)
+      vim.diagnostic.config({
+        virtual_text = false,
+      })
     end,
   },
   {

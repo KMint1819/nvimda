@@ -3,9 +3,8 @@ A nvim config for C++/Python/JS/React development derived from <a href="https://
 
 ## LIST
 - [ ] copy buffer (try this https://stackoverflow.com/a/41703217/9545385)
-- [ ] clangd auto support (compile_commands.json): See https://github.com/rizsotto/Bear/blob/master/INSTALL.md
-- [ ] Long error messages
-- [x] Multi-line edits
+- [x] Long error messages (space + e)
+- [x] Multi-line edits (alt + j, k)
 
 ## How to install
 - font
@@ -40,17 +39,6 @@ then set the terminal font to JetBrainsMono
 cd ~
 git clone --recursive https://github.com/KMint1819/nvimda.git ~/.config/nvim --depth=1
 ```
-
-- (optional) Alias `vim` to `nvim`
-```bash
-echo "alias vim=nvim" >> ~/.bashrc
-```
-
-- Run `vim`!
-```bash
-vim
-```
-
 Now you're good to go!!!
 
 ## Keyboard shortcuts:
