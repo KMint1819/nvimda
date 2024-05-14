@@ -71,8 +71,7 @@ local plugins = {
       {
         "<C-g>",
         "<CMD>DiffviewOpen<CR>",
-        mode = { "n", "i", "v"
-        }
+        mode = { "n", "i", "v" }
       }
     },
     config = {
