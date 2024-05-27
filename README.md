@@ -2,9 +2,9 @@
 A nvim config for C++/Python/JS/React development derived from <a href="https://github.com/NvChad/NvChad/tree/v2.0">NvChad</a>
 
 ## List
-- [ ] copy buffer (try this https://stackoverflow.com/a/41703217/9545385)
-- [x] Long error messages (space + e)
-- [x] Multi-line edits (alt + j, k)
+- [ ] auto closing tags https://github.com/windwp/nvim-ts-autotag
+- [ ] sort imports
+- [ ] remove unused imports
 
 ## How to install
 - font
