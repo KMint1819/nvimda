@@ -1,5 +1,13 @@
 local plugins = {
   {
+    "windwp/nvim-ts-autotag",
+    lazy = false,
+    dependencies = "nvim-treesitter/nvim-treesitter",
+    config = function()
+      require 'nvim-ts-autotag'.setup()
+    end,
+  },
+  {
     "akinsho/git-conflict.nvim",
     lazy = false,
     config = true,
@@ -63,7 +71,7 @@ local plugins = {
   {
     "mg979/vim-visual-multi",
     lazy = false,
-    branch = "v0.5.8",
+    tag = "v0.5.8",
     event = "User AstroFile",
   },
   {
