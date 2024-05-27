@@ -1,7 +1,7 @@
 <h1 align="center">nvimda</h1>
 A nvim config for C++/Python/JS/React development derived from <a href="https://github.com/NvChad/NvChad/tree/v2.0">NvChad</a>
 
-## LISTTT
+## List
 - [ ] copy buffer (try this https://stackoverflow.com/a/41703217/9545385)
 - [x] Long error messages (space + e)
 - [x] Multi-line edits (alt + j, k)
