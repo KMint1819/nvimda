@@ -72,6 +72,16 @@ local plugins = {
     lazy = false,
     tag = "v0.5.8",
     event = "User AstroFile",
+    init = function()
+      vim.g.VM_default_mappings = 0
+      vim.g.VM_mouse_mappings = 1
+      vim.g.VM_maps = {
+        ["Find Under"] = "",
+        ['Add Cursor Down'] = '<M-j>',
+        ['Add Cursor Up'] = '<M-k>',
+        ['Add Cursor At Pos'] = '<Leader>\''
+      }
+    end,
   },
   {
     "sindrets/diffview.nvim",
