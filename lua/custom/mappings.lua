@@ -14,6 +14,7 @@ M.bbye = {
     ["<leader>d"] = { "<cmd> Bdelete <CR>", "Delete the current buffer" }
   }
 }
+
 M.gp = {
   n = {
     ["<C-g>c"] = { "<cmd>GpChatNew<cr>", "New Chat" },
