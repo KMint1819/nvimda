@@ -114,6 +114,13 @@ local plugins = {
         },
       },
     }
+  },
+  {
+    url = "ssh://git@gitlab-master.nvidia.com:12051/asubramaniam/gp.nvim",
+    lazy = false,
+    config = function()
+      require("gp").setup()
+    end,
   }
 }
 return plugins
