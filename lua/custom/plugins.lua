@@ -85,6 +85,7 @@ local plugins = {
   },
   {
     "sindrets/diffview.nvim",
+    lazy = false,
     dependencies = {
       "nvim-lua/plenary.nvim",
       {
@@ -95,24 +96,15 @@ local plugins = {
       },
     },
     commit = "9359f7b1dd3cb9fb1e020f57a91f8547be3558c6",
-    keys = {
-      {
-        "<C-g>",
-        "<CMD>DiffviewOpen<CR>",
-        mode = { "n", "i", "v" }
-      }
-    },
     config = {
       keymaps = {
         view = {
-          ["<C-g>"] = "<CMD>DiffviewClose<CR>",
-          ["c"] = "<CMD>DiffviewClose|Neogit commit<CR>",
+          ["<C-m>"] = "<CMD>DiffviewClose<CR>",
         },
         file_panel = {
-          ["<C-g>"] = "<CMD>DiffviewClose<CR>",
-          ["c"] = "<CMD>DiffviewClose|Neogit commit<CR>",
-        },
-      },
+          ["<C-m>"] = "<CMD>DiffviewClose<CR>",
+        }
+      }
     }
   },
   {
