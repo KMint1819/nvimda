@@ -108,7 +108,7 @@ local plugins = {
     }
   },
   {
-    "robitx/gp.nvim",
+    url = "ssh://git@gitlab-master.nvidia.com:12051/asubramaniam/gp.nvim.git",
     lazy = false,
     config = function()
       require("gp").setup()
