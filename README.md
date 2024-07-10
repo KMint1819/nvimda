@@ -5,6 +5,7 @@ A nvim config for C++/Python/JS/React development derived from <a href="https://
 - [ ] auto closing tags https://github.com/windwp/nvim-ts-autotag
 - [ ] sort imports
 - [ ] remove unused imports
+- [ ] code folding https://github.com/kevinhwang91/nvim-ufo
 
 ## How to install
 - font
